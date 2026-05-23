@@ -242,25 +242,25 @@ SMOTE                        ← Fix class imbalance (training set only)
 ## 📈 Visualizations
 
 ### EDA Overview
-![EDA](plots/01_eda_overview.png)
+![EDA](01_eda_overview.png)
 
 ### Correlation Heatmap
-![Correlation](plots/02_correlation_heatmap.png)
+![Correlation](02_correlation_heatmap.png)
 
 ### Model Comparison
-![Models](plots/03_model_comparison.png)
+![Models](03_model_comparison.png)
 
 ### ROC Curves
-![ROC](plots/04_roc_curves.png)
+![ROC](04_roc_curves.png)
 
 ### Feature Importance
-![FI](plots/05_feature_importance.png)
+![FI](05_feature_importance.png)
 
 ### Confusion Matrices
-![CM](plots/06_confusion_matrices.png)
+![CM](06_confusion_matrices.png)
 
 ### Clinical Deep Dive
-![Clinical](plots/08_clinical_analysis.png)
+![Clinical](08_clinical_analysis.png)
 
 ---
 
