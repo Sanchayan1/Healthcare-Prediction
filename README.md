@@ -33,13 +33,6 @@ The pipeline covers every stage of a real-world ML project — data generation, 
 
 ---
 
-## 📁 Dataset
-
-A rich synthetic dataset of **5,000 patients × 74 raw features** was designed to mirror real clinical data, inspired by:
-- UCI Heart Disease Dataset
-- Pima Indians Diabetes Dataset
-- NHANES population health surveys
-
 ### Feature Domains
 
 | Domain | Examples | Count |
@@ -60,7 +53,6 @@ A rich synthetic dataset of **5,000 patients × 74 raw features** was designed t
 | `Heart_Disease_Risk` | Binary (0/1) | ~17% |
 | `Overall_Risk_Category` | Multi-class (Low/Moderate/High) | — |
 
-> ⚠️ **Note:** This is a fully synthetic dataset. No real patient data was used.
 
 ---
 
@@ -274,7 +266,6 @@ SMOTE                        ← Fix class imbalance (training set only)
 
 ## ⚖️ Ethical Considerations
 
-- **🔒 Privacy:** Fully synthetic data — no real patients. Production deployments must comply with HIPAA / GDPR.
 - **⚖️ Fairness:** Models should be audited for disparate impact across ethnic and income subgroups before deployment.
 - **🏥 Clinical Safety:** These models are **decision-support tools only** — not autonomous diagnostic systems. All outputs require clinician review.
 - **📉 Threshold Calibration:** Default threshold (0.5) should be lowered to ~0.3 for screening contexts to maximise sensitivity.
